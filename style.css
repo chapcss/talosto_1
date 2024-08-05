@@ -1129,31 +1129,8 @@ html, body {
   display: inline-block;
   padding: 5px;
   margin-left: 5px;
-  width: 23%;
-}
-
-@media screen and (min-width: 700px) {
-  .connect a {
-      font-size: 14px;
-  }
-}
-
-@media screen and (min-width: 600px) and (max-width: 699px) {
-  .connect a {
-      font-size: 11px;
-  }
-}
-
-@media screen and (min-width: 500px) and (max-width: 599px) {
-  .connect a {
-      font-size: 4px;
-  }
-}
-
-@media screen and (min-width: 300px) and (max-width: 499px) {
-  .connect a {
-      font-size: 2px;
-  }
+  width: 48%;
+  -webkit-text-size-adjust: 14px;
 }
 
 .sort-panel{
