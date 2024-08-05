@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Талосто каталог</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="author" content="">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<!--link to the CSS files for this menu type-->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="stylesheet" type="text/css" href="fonts/icomoon/icomoon.css">
+	<link rel="stylesheet" media="screen" href="superfish/css/superfish.css">
+
+	<link rel="stylesheet" type="text/css" href="slick/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css" />
+
+	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.min.css">
+	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css">
+
+	<!--link to the JavaScript files (hoverIntent is optional)-->
+	<script src="superfish/js/hoverIntent.js"></script>
+	<script src="superfish/js/superfish.js"></script>
+	<script src="https://kit.fontawesome.com/2c07d40416.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="parent-1">
+        <img src="images/Без имени-1.png" class="small-icon">
+    </div>
+	<div class="parent0">
+		<div class="child0">
+			<ul class="coder">
+				<li> <a href="../index.html"  data-effect="Home">ГЛАВНАЯ</a>
+					<ul> 
+						<li> <a href="../index.html#Piter"> Петербург</a> </li>
+						<li> <a href="../index.html#News"> Новости</a> </li>
+						<li> <a href="../index.html#Gallery"> Галлерея</a> </li>
+					</ul>
+				</li>				
+				<li> <a href="../about_us.html"  data-effect="Home">О НАС</a>
+					<ul> 
+						<li> <a href="../about_us.html#History"> История</a> </li>
+						<li> <a href="../about_us.html#Make"> Производство</a> </li>
+						<li> <a href="../about_us.html#Talosto"> Талосто</a> </li>
+					</ul>
+				</li>
+				<li> <a href="../katalog.html"  data-effect="Home">КАТАЛОГ</a>
+					<ul> 
+						<li> <a href="эскимо.html">Эскимо</a> </li>
+						<li> <a href="рожки.html">Рожки</a> </li>
+						<li> <a href="трубочки.html"> Трубочки</a> </li>
+						<li> <a href="рулеты.html">Рулеты</a> </li>
+						<li> <a href="брикеты.html">Брикеты</a> </li>
+						<li> <a href="тесто.html"> Тесто</a> </li>
+						<li> <a href="все_мороженое.html"> Все мороженое</a> </li>
+					</ul>
+				</li>
+			</ul>				
+		</div>
+	</div>
+    
+<section>
+    <div class="container">
+        <div class="heading text-center">
+            <h2 id="Мороженое" class="section-title text-center"><strong></strong>Все мороженое</h2>
+            <div class="divider dark mb-4">
+                <div class="icon-wrap">
+                    <i class="icon icon-spoon"></i>
+                </div>
+            </div>
+        </div>
+        <div class="dark price-list">
+
+            <div class="row">
+
+                <table class="col-md-6">
+                    <tr class="katalog-image-left-top">
+                        <td>
+                            <button id="openbutton8" class="buttonmenu">
+                                <img src="images/black_gold_sq1.png" class="menuImg">
+                            </button>
+                            <div class="title">
+                                <strong>Кофейное 1</strong>
+                                <em>Россия, 200 г</em>
+                            </div>
+                        </td>
+                        <td class="color-primary"><strong>116₽</strong></td>
+                    </tr>
+                    <dialog id="modal8" class="dialogmenu">
+                        <img src="images/black_gold_sq1.png" class="menuImg">
+                        <br>
+                        <strong>Пищевая ценность на 100 г: </strong></br>
+                        3.5 г белки </br>
+                        10 г жиры </br>
+                        25 г углеводы </br>
+                        <strong>Энергетическая ценность на 100 г:</strong></br>
+                        200 ккал </br>
+                        <strong>Масса: </strong> </br>
+                        200 г
+                        <button id="closebutton8" class="closebuttonmenu">
+                            ЗАКРЫТЬ
+                        </button>
+                    </dialog>
+                    <script>
+                        openbutton8.addEventListener('click', () => { 
+                            modal8.showModal()
+                            document.body.classList.add('lock')
+                        })
+                        closebutton8.addEventListener('click', () => { 
+                            modal8.close()
+                            document.body.classList.remove('lock')
+                        })
+                    </script>
+
+                    <tr class="katalog-image-2">
+                        <td>
+                            <button id="openbutton7" class="buttonmenu">
+                                <img src="images/ля_фам_крем_брюле_sq.png" class="menuImg">
+                            </button>
+                            <div class="title">
+                                <strong>Кофейное 2</strong>
+                                <em>Россия, 70 г </em>
+                            </div>
+                        </td>
+                        <td class="color-primary"><strong>63₽</strong></td>
+                    </tr>
+                    <dialog id="modal7" class="dialogmenu">
+                        <img src="images/ля_фам_крем_брюле_sq.png" class="menuImg">
+                        <br>
+                        <strong>Пищевая ценность на 100 г: </strong></br>
+                        4 г белки </br>
+                        16.5 г жиры </br>
+                        23.8 г углеводы </br>
+                        <strong>Энергетическая ценность на 100 г:</strong></br>
+                        256 ккал </br>
+                        <strong>Масса: </strong> </br>
+                        70 г
+                        <button id="closebutton7" class="closebuttonmenu">
+                            ЗАКРЫТЬ
+                        </button>
+                    </dialog>
+                    <script>
+                        openbutton7.addEventListener('click', () => { 
+                            modal7.showModal()
+                            document.body.classList.add('lock')
+                        })
+                        closebutton7.addEventListener('click', () => { 
+                            modal7.close()
+                            document.body.classList.remove('lock')
+                        })
+                    </script>
+
+                    <tr  class="katalog-image-left-bottom">
+                        <td>
+                            <button id="openbutton6" class="buttonmenu">
+                                <img src="images/оазис_sq.png" class="menuImg">
+                            </button>
+                            <div class="title">
+                                <strong>Фруктовое 1</strong>
+                                <em>Россия, 70 г</em>
+                            </div>
+                        </td>
+                        <td class="color-primary"><strong>63₽</strong></td>
+                    </tr>
+                    <dialog id="modal6" class="dialogmenu">
+                        <img src="images/оазис_sq.png" class="menuImg">
+                        <br>
+                        <strong>Пищевая ценность на 100 г: </strong></br>
+                        3.5 г белки </br>
+                        21 г жиры </br>
+                        25 г углеводы </br>
+                        <strong>Энергетическая ценность на 100 г:</strong></br>
+                        300 ккал </br>
+                        <strong>Масса: </strong> </br>
+                        70 г
+                        <button  id="closebutton6" class="closebuttonmenu">
+                            ЗАКРЫТЬ
+                        </button>
+                    </dialog>
+                    <script>
+                        openbutton6.addEventListener('click', () => { 
+                            modal6.showModal()
+                            document.body.classList.add('lock')
+                        })
+                        closebutton6.addEventListener('click', () => { 
+                            modal6.close()
+                            document.body.classList.remove('lock')
+                        })
+                    </script>
+                </table>
+
+                <table class="col-md-6">
+                    <tr class="katalog-image-right-top">
+                        <td>
+                            <button id="openbutton5" class="buttonmenu">
+                                <img src="images/крутышка_sq.png" class="menuImg">
+                            </button>
+                            <div class="title">
+                                <strong>Фруктовое 2</strong>
+                                <em>Россия, 90 г</em>
+                            </div>
+                        </td>
+                        <td class="color-primary"><strong>61₽</strong></td>
+                    </tr>
+                    <dialog id="modal5" class="dialogmenu">
+                        <img src="images/крутышка_sq.png" class="menuImg">
+                        <br>
+                        <strong>Пищевая ценность на 100 г: </strong></br>
+                        4 г белки </br>
+                        22.8 г жиры </br>
+                        25.4 г углеводы </br>
+                        <strong>Энергетическая ценность на 100 г:</strong></br>
+                        319 ккал </br>
+                        <strong>Масса: </strong> </br>
+                        90 г
+                        <button id="closebutton5" class="closebuttonmenu">
+                            ЗАКРЫТЬ
+                        </button>
+                    </dialog>
+                    <script>
+                        openbutton5.addEventListener('click', () => { 
+                            modal5.showModal()
+                            document.body.classList.add('lock')
+                        })
+                        closebutton5.addEventListener('click', () => { 
+                            modal5.close()
+                            document.body.classList.remove('lock')
+                        })
+                    </script>
+
+                    <tr  class="katalog-image-2">
+                        <td>
+                            <button id="openbutton4" class="buttonmenu">
+                                <img src="images/венеция_sq.png" class="menuImg">
+                            </button>
+                            <div class="title">
+                                <strong>Ягодное 1</strong>
+                                <em>Россия, 450 г</em>
+                            </div>
+                        </td>
+                        <td class="color-primary"><strong>267₽</strong></td>
+                    </tr>
+                    <dialog id="modal4" class="dialogmenu">
+                        <img src="images/венеция_sq.png" class="menuImg">
+                        <br>
+                        <strong>Пищевая ценность на 100 г: </strong></br>
+                        3.5 г белки </br>
+                        17 г жиры </br>
+                        21 г углеводы </br>
+                        <strong>Энергетическая ценность на 100 г:</strong></br>
+                        250 ккал </br>
+                        <strong>Масса: </strong> </br>
+                        450 г
+                        <button id="closebutton4" class="closebuttonmenu">
+                            ЗАКРЫТЬ
+                        </button>
+                    </dialog>
+                    <script>
+                        openbutton4.addEventListener('click', () => { 
+                            modal4.showModal()
+                            document.body.classList.add('lock')
+                        })
+                        closebutton4.addEventListener('click', () => { 
+                            modal4.close()
+                            document.body.classList.remove('lock')
+                        })
+                    </script>
+
+                    <tr class="katalog-image-right-bottom">
+                        <td>
+                            <button id="openbutton3" class="buttonmenu">
+                                <img src="images/ля_фам_ванильный_sq.png" class="menuImg">
+                            </button>
+                            <div class="title">
+                                <strong>Ореховое 1</strong>
+                                <em>Россия, 70 г</em>
+                            </div>
+                        </td>
+                        <td class="color-primary"><strong>63₽</strong></td>
+                    </tr>
+                    <dialog id="modal3" class="dialogmenu">
+                        <img src="images/ля_фам_ванильный_sq.png" class="menuImg">
+                        <br>
+                        <strong>Пищевая ценность на 100 г: </strong></br>
+                        4.5 г белки </br>
+                        13.7 г жиры </br>
+                        32 г углеводы </br>
+                        <strong>Энергетическая ценность на 100 г:</strong></br>
+                        262 ккал </br>
+                        <strong>Масса: </strong> </br>
+                        70 г
+                        <button id="closebutton3" class="closebuttonmenu">
+                            ЗАКРЫТЬ
+                        </button>
+                    </dialog>
+                    <script>
+                        openbutton3.addEventListener('click', () => { 
+                            modal3.showModal()
+                            document.body.classList.add('lock')
+                        })
+                        closebutton3.addEventListener('click', () => { 
+                            modal3.close()
+                            document.body.classList.remove('lock')
+                        })
+                    </script>
+                </table>
+
+            </div>
+
+        </div>
+
+
+            <h5 class="widget-title"><strong></strong>*точную цену можно узнать на сайтах магазинов</h5>
+
+        <!--<div class="pix_btn text-center">
+            <a href="#" class="button btn-effect mt-5">View full menu</a>
+        </div>-->
+
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-6 col-md-3">
+                <div class="footer-menu">
+                    <h4 class="widget-title">КОНТАКТЫ</h4>
+                    <ul id="footer-menu" class="list-unstyled">
+                        <li><i class="icon icon-map-marker"></i>Кузнецовская улица, 52 кб, Санкт-Петербург</li>
+                        <li><i class="icon icon-mobile"></i>(812)327-66-11</li>
+                        <li><i class="icon icon-envelope"></i>support@talosto.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-2">
+                <div class="footer-menu">
+                    <h4 class="widget-title">БИЗНЕС</h4>
+                    <ul id="footer-menu" class="list-unstyled">
+                        <li><a href="https://vk.com/public184241994"><i class="fa-brands fa-vk"></i></a></li>
+                        <li><a href="https://t.me/telegram"><i class="fa-brands fa-telegram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-2">
+                <div class="footer-menu">
+                    <h4 class="widget-title">Магазин</h4>
+                    <ul id="footer-menu" class="list-unstyled">
+                        <li><a href="#">Тесто</a></li>
+                        <li><a href="#">Мороженое</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-2">
+                <div class="footer-menu">
+                    <h4 class="widget-title">ИНФОРМАЦИЯ</h4>
+                    <ul id="footer-menu" class="list-unstyled">
+                        <li><a href="index.html">ГЛАВНАЯ</a></li>
+                        <li><a href="about_us.html">ПРО НАС</a></li>
+                        <li><a href="#">КАТАЛОГ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
